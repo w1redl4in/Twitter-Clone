@@ -23,7 +23,7 @@
       </div>
     <% end %>
   
-    <nav class="navbar is-info" style="position: fixed; width: 100%;">
+    <nav class="navbar is-info">
       <div class="navbar-brand">
         <%= link_to root_path, class: "navbar-item" do %>
           <h1 class="title is-four">Twitter&nbsp;<span class="fa fa-twitter"></span></h1>
@@ -38,8 +38,8 @@
       <div id="navbarExample" class="navbar-menu">
         <div class="navbar-end">
           <div class="field is-grouped ">
-            <p style="position: relative; margin-top: 6px;"class="control"><%= link_to 'New Tweet', new_tweet_path, class: "button is-info is-inverted" %></p>
-            <p class="control button is-info is-inverted" style="position: relative; margin-top: 6px; margin-right: 6px;">Sign Up</p>
+            <p class="control"><%= link_to 'New Tweet', new_tweet_path, class: "button is-info is-inverted" %></p>
+            <p class="control button is-info is-inverted">Sign Up</p>
           </div>
         </div>
       </div>
