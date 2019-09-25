@@ -208,3 +208,1805 @@ Processing by TweetsController#index as HTML
 Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:15:40 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 232ms (Views: 226.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:22:22 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:22:35 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:22:44 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:23:18 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:23:18 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:25:15 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:25:45 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:25:46 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:25:47 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:35:17 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:43:30 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 13:43:32 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at 2019-09-24 13:43:34 -0300
+Processing by TweetsController#new as HTML
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (101.9ms)
+  Rendered tweets/new.html.erb within layouts/application (102.8ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 13:43:35 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 13:44:58 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 13:46:29 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1428ms (Views: 1426.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 13:49:26 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1490ms (Views: 1489.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 13:56:30 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_feed.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 13:57:03 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_feed.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 13:57:38 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_feed.html.erb (0.8ms)
+  Rendered tweets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 13:57:38 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_feed.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 13:57:39 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_feed.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:01:02 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  Rendered tweets/_feed.html.erb (225.4ms)
+  Rendered tweets/index.html.erb within layouts/application (226.1ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 0.7ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NameError - undefined local variable or method `tweets' for #<#<Class:0x00007f958c0d7d60>:0x00007f958c0d58f8>
+Did you mean?  @tweets:
+  app/views/tweets/_feed.html.erb:11:in `_app_views_tweets__feed_html_erb__4490516649843373661_70140138314480'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb___3176422547569591484_70140138243240'
+
+Started POST "/__better_errors/f2e9559a2104b089/variables" for 127.0.0.1 at 2019-09-24 14:01:02 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:01:17 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  Rendered tweets/_feed.html.erb (372.5ms)
+  Rendered tweets/index.html.erb within layouts/application (373.3ms)
+Completed 500 Internal Server Error in 375ms (ActiveRecord: 0.9ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NameError - undefined local variable or method `tweets' for #<#<Class:0x00007f958c0d7d60>:0x00007f958c0eeb00>
+Did you mean?  @tweets:
+  app/views/tweets/_feed.html.erb:11:in `_app_views_tweets__feed_html_erb__4490516649843373661_70140138394200'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb___3176422547569591484_70140138323380'
+
+Started POST "/__better_errors/46b23da2ea605461/variables" for 127.0.0.1 at 2019-09-24 14:01:18 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:01:43 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  Rendered tweets/_feed.html.erb (385.0ms)
+  Rendered tweets/index.html.erb within layouts/application (385.8ms)
+Completed 500 Internal Server Error in 388ms (ActiveRecord: 0.9ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NameError - undefined local variable or method `tweets' for #<#<Class:0x00007f958c0d7d60>:0x000055958880fe08>
+Did you mean?  @tweets:
+  app/views/tweets/_feed.html.erb:11:in `_app_views_tweets__feed_html_erb__4490516649843373661_47050372149620'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb___3176422547569591484_47050363580800'
+
+Started POST "/__better_errors/3957c5a659b34e76/variables" for 127.0.0.1 at 2019-09-24 14:01:44 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started POST "/__better_errors/3957c5a659b34e76/variables" for 127.0.0.1 at 2019-09-24 14:01:47 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:02:32 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  Rendered tweets/_feed.html.erb (423.2ms)
+  Rendered tweets/index.html.erb within layouts/application (423.9ms)
+Completed 500 Internal Server Error in 426ms (ActiveRecord: 0.9ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NameError - undefined local variable or method `tweeets' for #<#<Class:0x00007f958c0d7d60>:0x00007f958a4c4308>
+Did you mean?  @tweets:
+  app/views/tweets/_feed.html.erb:11:in `_app_views_tweets__feed_html_erb__4490516649843373661_70140123605120'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb___3176422547569591484_70140123555240'
+
+Started POST "/__better_errors/23193f5a781bb461/variables" for 127.0.0.1 at 2019-09-24 14:02:32 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:06:42 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:07:22 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.1ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:07:23 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:07:23 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:07:25 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:07:29 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:08:50 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (6.2ms)
+  Rendered tweets/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 32ms (Views: 28.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:09:08 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:10:00 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.1ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:10:01 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.2ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:10:01 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.1ms)
+  Rendered tweets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:10:02 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:10:09 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:10:18 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (17.1ms)
+  Rendered tweets/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 224ms (Views: 203.5ms | ActiveRecord: 12.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:18:16 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:18:55 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:19:03 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (0.8ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:19:43 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:11
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:23:19 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:23:20 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:24:15 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (0.8ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:24:16 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:28:10 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:28:15 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:28:41 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:28:45 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:31:25 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:43:26 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:44:01 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:49:30 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.8ms)
+  Rendered tweets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:50:32 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.2ms)
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:51:09 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:51:18 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:51:18 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:51:26 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.2ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:51:32 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.1ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:51:42 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:51:46 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:52:14 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.0ms)
+  Rendered tweets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/1" for 127.0.0.1 at 2019-09-24 14:52:21 -0300
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:54:52 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (7.5ms)
+  Rendered tweets/index.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.1ms)
+
+
+
+ActionController::UrlGenerationError - No route matches {:action=>"edit", :controller=>"tweets"}, missing required keys: [:id]:
+  app/views/tweets/_feed.html.erb:34:in `block in _app_views_tweets__feed_html_erb__2161836548478684839_70334967180580'
+  app/views/tweets/_feed.html.erb:14:in `_app_views_tweets__feed_html_erb__2161836548478684839_70334967180580'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb__1046303466722092584_70334967100640'
+
+Started POST "/__better_errors/796a00922dbd754f/variables" for 127.0.0.1 at 2019-09-24 14:54:52 -0300
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:55:03 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (2.3ms)
+  Rendered tweets/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+
+ActionController::UrlGenerationError - No route matches {:action=>"edit", :controller=>"tweets"}, missing required keys: [:id]:
+  app/views/tweets/_feed.html.erb:34:in `block in _app_views_tweets__feed_html_erb__2161836548478684839_70334854458580'
+  app/views/tweets/_feed.html.erb:14:in `_app_views_tweets__feed_html_erb__2161836548478684839_70334854458580'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb__1046303466722092584_70334854415860'
+
+Started POST "/__better_errors/eaed435535b1eed0/variables" for 127.0.0.1 at 2019-09-24 14:55:03 -0300
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:55:11 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/1/edit" for 127.0.0.1 at 2019-09-24 14:55:13 -0300
+Processing by TweetsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  Rendering tweets/edit.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (11.0ms)
+  Rendered tweets/edit.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 54ms (Views: 51.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:56:10 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.7ms)
+  Rendered tweets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 14:56:19 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.9ms)
+  Rendered tweets/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tweets/1" for 127.0.0.1 at 2019-09-24 14:56:20 -0300
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 60ms (Views: 57.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/1/edit" for 127.0.0.1 at 2019-09-24 14:56:24 -0300
+Processing by TweetsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  Rendering tweets/edit.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (1.8ms)
+  Rendered tweets/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tweets/1" for 127.0.0.1 at 2019-09-24 14:56:28 -0300
+Processing by TweetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TPNvC1fAxGc+H1P9YNYyXAYC9D7st4Ng9IRFlSDop6qvAQ8Et5/Hi5/voHT19isuP3HlMDUBA3r84bh/QPbuxQ==", "tweet"=>{"tweet"=>"ewqewq"}, "commit"=>"Update Tweet", "id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:44
+  [1m[36mTweet Update (0.3ms)[0m  [1m[33mUPDATE "tweets" SET "tweet" = ?, "updated_at" = ? WHERE "tweets"."id" = ?[0m  [["tweet", "ewqewq"], ["updated_at", "2019-09-24 17:56:28.978662"], ["id", 1]]
+  ↳ app/controllers/tweets_controller.rb:44
+  [1m[35m (99.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:44
+Redirected to http://localhost:3000/tweets/1
+Completed 302 Found in 106ms (ActiveRecord: 100.4ms)
+
+
+Started GET "/tweets/1" for 127.0.0.1 at 2019-09-24 14:56:29 -0300
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-24 14:56:32 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.2ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/1/edit" for 127.0.0.1 at 2019-09-24 14:56:38 -0300
+Processing by TweetsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  Rendering tweets/edit.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (1.3ms)
+  Rendered tweets/edit.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tweets/1" for 127.0.0.1 at 2019-09-24 14:56:40 -0300
+Processing by TweetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IYbBhu3ihUed6kvkRxeTYyuy8pDjxKv5ugrYfypEXKrCdKGJDb2GqzwauG3SN4oREsHjnjpyK+OybyWVSloVxQ==", "tweet"=>{"tweet"=>"ewqewq"}, "commit"=>"Update Tweet", "id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:44
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:44
+Redirected to http://localhost:3000/tweets/1
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/1" for 127.0.0.1 at 2019-09-24 14:56:40 -0300
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:01:24 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.2ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:01:46 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:26
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:01:55 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:26
+  Rendered tweets/_feed.html.erb (1.2ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:02:01 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:26
+  Rendered tweets/_feed.html.erb (1.2ms)
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:02:29 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:27
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:03:42 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ewqe" for 127.0.0.1 at 2019-09-24 15:05:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/ewqe"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:07:30 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_feed.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tLABEL
+...uffer.append=  link_to, method: :delete, data: { confirm: "V...
+...                        ^~~~~~~
+/home/u300343/projetos/Twitter-Clone/app/views/tweets/_feed.html.erb:40: syntax error, unexpected do, expecting end
+...e quer deletar este tweet?"} do @output_buffer.safe_append='
+...                             ^~
+/home/u300343/projetos/Twitter-Clone/app/views/tweets/_feed.html.erb:48: syntax error, unexpected end, expecting end-of-input
+'.freeze; end ;
+          ^~~:
+  app/views/tweets/_feed.html.erb:40:in `'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb__1046303466722092584_70334966674500'
+
+Started POST "/__better_errors/ad856226ca445a0b/variables" for 127.0.0.1 at 2019-09-24 15:07:30 -0300
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:07:30 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_feed.html.erb (0.6ms)
+  Rendered tweets/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tLABEL
+...uffer.append=  link_to, method: :delete, data: { confirm: "V...
+...                        ^~~~~~~
+/home/u300343/projetos/Twitter-Clone/app/views/tweets/_feed.html.erb:40: syntax error, unexpected do, expecting end
+...e quer deletar este tweet?"} do @output_buffer.safe_append='
+...                             ^~
+/home/u300343/projetos/Twitter-Clone/app/views/tweets/_feed.html.erb:48: syntax error, unexpected end, expecting end-of-input
+'.freeze; end ;
+          ^~~:
+  app/views/tweets/_feed.html.erb:40:in `'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb__1046303466722092584_70334972961960'
+
+Started POST "/__better_errors/73706a400ce17ce2/variables" for 127.0.0.1 at 2019-09-24 15:07:30 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:07:31 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_feed.html.erb (0.6ms)
+  Rendered tweets/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tLABEL
+...uffer.append=  link_to, method: :delete, data: { confirm: "V...
+...                        ^~~~~~~
+/home/u300343/projetos/Twitter-Clone/app/views/tweets/_feed.html.erb:40: syntax error, unexpected do, expecting end
+...e quer deletar este tweet?"} do @output_buffer.safe_append='
+...                             ^~
+/home/u300343/projetos/Twitter-Clone/app/views/tweets/_feed.html.erb:48: syntax error, unexpected end, expecting end-of-input
+'.freeze; end ;
+          ^~~:
+  app/views/tweets/_feed.html.erb:40:in `'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb__1046303466722092584_70334967020100'
+
+Started POST "/__better_errors/80de3b567a625e50/variables" for 127.0.0.1 at 2019-09-24 15:07:31 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2019-09-24 15:07:39 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.7ms)
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets?data%5Bconfirm%5D=Voc%C3%AA+tem+certeza+que+quer+deletar+este+tweet%3F&method=delete" for 127.0.0.1 at 2019-09-24 15:07:42 -0300
+Processing by TweetsController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Você tem certeza que quer deletar este tweet?"}, "method"=>"delete"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets?data%5Bconfirm%5D=Voc%C3%AA+tem+certeza+que+quer+deletar+este+tweet%3F&method=delete" for 127.0.0.1 at 2019-09-24 15:07:44 -0300
+Processing by TweetsController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Você tem certeza que quer deletar este tweet?"}, "method"=>"delete"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.7ms)
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets?data%5Bconfirm%5D=Voc%C3%AA+tem+certeza+que+quer+deletar+este+tweet%3F&method=delete" for 127.0.0.1 at 2019-09-24 15:08:02 -0300
+Processing by TweetsController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Você tem certeza que quer deletar este tweet?"}, "method"=>"delete"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets?data%5Bconfirm%5D=Voc%C3%AA+tem+certeza+que+quer+deletar+este+tweet%3F&method=delete" for 127.0.0.1 at 2019-09-24 15:08:02 -0300
+Processing by TweetsController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Você tem certeza que quer deletar este tweet?"}, "method"=>"delete"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.5ms)
+  Rendered tweets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets?data%5Bconfirm%5D=Voc%C3%AA+tem+certeza+que+quer+deletar+este+tweet%3F&method=delete" for 127.0.0.1 at 2019-09-24 15:10:45 -0300
+Processing by TweetsController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Você tem certeza que quer deletar este tweet?"}, "method"=>"delete"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets?data%5Bconfirm%5D=Voc%C3%AA+tem+certeza+que+quer+deletar+este+tweet%3F&method=delete" for 127.0.0.1 at 2019-09-24 15:13:17 -0300
+Processing by TweetsController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Você tem certeza que quer deletar este tweet?"}, "method"=>"delete"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets?data%5Bconfirm%5D=Voc%C3%AA+tem+certeza+que+quer+deletar+este+tweet%3F&method=delete" for 127.0.0.1 at 2019-09-24 15:13:29 -0300
+Processing by TweetsController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Você tem certeza que quer deletar este tweet?"}, "method"=>"delete"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets?data%5Bconfirm%5D=Voc%C3%AA+tem+certeza+que+quer+deletar+este+tweet%3F&method=delete" for 127.0.0.1 at 2019-09-24 15:16:55 -0300
+Processing by TweetsController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Você tem certeza que quer deletar este tweet?"}, "method"=>"delete"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+

@@ -1,0 +1,5 @@
+## ignore tmp
+/tmp/
+./tmp/
+
+/vendor/
