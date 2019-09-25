@@ -3944,3 +3944,169 @@ Processing by TweetsController#index as HTML
 Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-09-25 11:22:25 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.1ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/1/edit" for 127.0.0.1 at 2019-09-25 11:25:03 -0300
+Processing by TweetsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  Rendering tweets/edit.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (3.1ms)
+  Rendered tweets/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tweets/1" for 127.0.0.1 at 2019-09-25 11:25:07 -0300
+Processing by TweetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j+eoZk5suLUhphHZ+XAY09XHjwjuTF8Ho7RSqMEHqtowZZbBbLBOUZJWRlBHmjk69Ls/aM3xj80sy1zLg32KaA==", "tweet"=>{"tweet"=>"Hello world!"}, "commit"=>"Update Tweet", "id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:45
+  [1m[36mTweet Update (0.2ms)[0m  [1m[33mUPDATE "tweets" SET "tweet" = ?, "updated_at" = ? WHERE "tweets"."id" = ?[0m  [["tweet", "Hello world!"], ["updated_at", "2019-09-25 14:25:07.788045"], ["id", 1]]
+  ↳ app/controllers/tweets_controller.rb:45
+  [1m[35m (138.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:45
+Redirected to http://localhost:3000/tweets/1
+Completed 302 Found in 143ms (ActiveRecord: 138.5ms)
+
+
+Started GET "/tweets/1" for 127.0.0.1 at 2019-09-25 11:25:07 -0300
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:25:09 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (5.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:26:18 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (3.1ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.8ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:27:53 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.8ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:27:55 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.1ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.8ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:27:57 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.0ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:28:08 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (1.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:28:18 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.0ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:28:30 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.4ms)
+  Rendered tweets/_form.html.erb (2.9ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.7ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:30:46 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (2.6ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.2ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.1ms)
+
+
