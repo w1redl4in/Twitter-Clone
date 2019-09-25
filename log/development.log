@@ -2010,3 +2010,1937 @@ Processing by TweetsController#index as HTML
 Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:05:40 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (5.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 234ms (Views: 214.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:06:03 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:06:43 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:07:27 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:07:38 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:07:59 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:08:19 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:08:29 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:09:15 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:11:03 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.8ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:11:52 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:13:01 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (2.0ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:13:17 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:13:51 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.5ms)
+  Rendered tweets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:14:01 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:16:59 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:17:06 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:19:37 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (1.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:20:33 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY "tweets"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:22:33 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered tweets/_feed.html.erb (10.2ms)
+  Rendered tweets/index.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.2ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NoMethodError - undefined method `tweet' for #<Tweet::ActiveRecord_Relation:0x00007feb1d6ed510>:
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323894012440'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb___417002132580755507_70323893932680'
+
+Started POST "/__better_errors/c0c16e08326a3cd5/variables" for 127.0.0.1 at 2019-09-25 10:22:33 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:22:37 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_feed.html.erb (1.8ms)
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `tweet' for nil:NilClass:
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323915480080'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb___417002132580755507_70323848405780'
+
+Started POST "/__better_errors/9725468484b6edf5/variables" for 127.0.0.1 at 2019-09-25 10:22:38 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:22:46 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered tweets/_feed.html.erb (3.7ms)
+  Rendered tweets/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NoMethodError - undefined method `tweet' for #<Tweet::ActiveRecord_Relation:0x00007feb1decd5c8>:
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323898344280'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb___417002132580755507_70323898048780'
+
+Started POST "/__better_errors/ecacc8ac03537412/variables" for 127.0.0.1 at 2019-09-25 10:22:46 -0300
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:22:59 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered tweets/_feed.html.erb (7.0ms)
+  Rendered tweets/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NoMethodError - undefined method `id' for #<Tweet::ActiveRecord_Relation:0x00007feb1dead7c8>
+Did you mean?  ids:
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323898318980'
+  app/views/tweets/index.html.erb:4:in `_app_views_tweets_index_html_erb___417002132580755507_70323897983240'
+
+Started POST "/__better_errors/6ea88efded6edf22/variables" for 127.0.0.1 at 2019-09-25 10:22:59 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:23:23 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:23:32 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/tweets/_feed.html.erb:10
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 46ms (Views: 43.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-09-25 10:24:05 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (2.0ms)
+  Rendered tweets/_who-to-follow.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tweets/new" for 127.0.0.1 at 2019-09-25 10:24:38 -0300
+Processing by TweetsController#new as HTML
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (21.6ms)
+  Rendered tweets/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2019-09-25 10:24:43 -0300
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oBbP0xEwcohYnS3FdZMhM/SD+ech5v0B/xrS7i6zlWCmO0dKz7r10Ef6aP6/6Xlx0QLf8CJl1bwlEfaSnqMIuA==", "tweet"=>{"tweet"=>"foda-se"}, "commit"=>"Create Tweet"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:30
+  [1m[36mTweet Create (1.4ms)[0m  [1m[32mINSERT INTO "tweets" ("tweet", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["tweet", "foda-se"], ["created_at", "2019-09-25 13:24:43.892162"], ["updated_at", "2019-09-25 13:24:43.892162"]]
+  ↳ app/controllers/tweets_controller.rb:30
+  [1m[35m (116.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:30
+Redirected to http://localhost:3000/tweets/2
+Completed 302 Found in 123ms (ActiveRecord: 117.9ms)
+
+
+Started GET "/tweets/2" for 127.0.0.1 at 2019-09-25 10:24:44 -0300
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 26.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:24:46 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.7ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:24:47 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:27:44 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:27:54 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/tweets/2" for 127.0.0.1 at 2019-09-25 10:28:05 -0300
+Processing by TweetsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xBDJ8gBksMlHZ5QK2P5FXfbl1XHiGznNE08NiFcsqmzcaS/S5UY1svqI8V2Q/FzPc7n7YZdF2B0Bkd6NTJBYwA==", "id"=>"2"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:57
+  [1m[36mTweet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "tweets" WHERE "tweets"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/tweets_controller.rb:57
+  [1m[35m (101.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:57
+Redirected to http://localhost:3000/tweets
+Completed 302 Found in 105ms (ActiveRecord: 101.4ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:28:06 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:28:27 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.2ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:32:04 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:32:17 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:32:22 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:32:47 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.1ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:32:59 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.2ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:33:32 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:33:47 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:34:30 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:35:57 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  Rendered tweets/_form.html.erb (283.1ms)
+  Rendered tweets/_feed.html.erb (283.9ms)
+  Rendered tweets/index.html.erb within layouts/application (285.3ms)
+Completed 500 Internal Server Error in 287ms (ActiveRecord: 0.6ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NameError - undefined local variable or method `tweet' for #<#<Class:0x0000558873bff9b8>:0x00007feb1dda1ed8>
+Did you mean?  @tweets:
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_70323897532460'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323897492140'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323897439380'
+
+Started POST "/__better_errors/4a228a70cd687214/variables" for 127.0.0.1 at 2019-09-25 10:35:58 -0300
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.3ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:38:47 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered tweets/_form.html.erb (94.8ms)
+  Rendered tweets/_feed.html.erb (95.8ms)
+  Rendered tweets/index.html.erb within layouts/application (97.6ms)
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.2ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NoMethodError - undefined method `to_key' for #<Tweet::ActiveRecord_Relation:0x00007feb1d5642c0>
+Did you mean?  to_set
+               to_ary:
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_70323893483540'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323893384880'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323893152240'
+
+Started POST "/__better_errors/f6b399f422fd9f31/variables" for 127.0.0.1 at 2019-09-25 10:38:47 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:38:50 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered tweets/_form.html.erb (6.4ms)
+  Rendered tweets/_feed.html.erb (7.7ms)
+  Rendered tweets/index.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NoMethodError - undefined method `to_key' for #<Tweet::ActiveRecord_Relation:0x00007feb183f5510>
+Did you mean?  to_set
+               to_ary:
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_70323916440960'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323916401540'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323850420480'
+
+Started POST "/__better_errors/6de79f0ce63fccff/variables" for 127.0.0.1 at 2019-09-25 10:38:50 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:39:03 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (2.7ms)
+  Rendered tweets/_feed.html.erb (3.9ms)
+  Rendered tweets/index.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `model_name' for nil:NilClass:
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_70323887225240'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323887099820'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323886869380'
+
+Started POST "/__better_errors/9adb9035b7e3c93d/variables" for 127.0.0.1 at 2019-09-25 10:39:03 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:41:59 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered tweets/_form.html.erb (156.0ms)
+  Rendered tweets/_feed.html.erb (156.8ms)
+  Rendered tweets/index.html.erb within layouts/application (158.1ms)
+Completed 500 Internal Server Error in 165ms (ActiveRecord: 0.9ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NoMethodError - undefined method `error_notifications' for #<SimpleForm::FormBuilder:0x00007feb1e04c4d0>
+Did you mean?  error_notification:
+  app/views/tweets/_form.html.erb:2:in `block in _app_views_tweets__form_html_erb__2812155471677957999_70323898831860'
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_70323898831860'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323898793140'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323898602320'
+
+Started POST "/__better_errors/233e6e83684007d6/variables" for 127.0.0.1 at 2019-09-25 10:41:59 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:42:06 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (25.8ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (28.0ms)
+  Rendered tweets/_who-to-follow.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:43:17 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (0.6ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (2.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:45:24 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (20.1ms)
+  Rendered tweets/_feed.html.erb (21.6ms)
+  Rendered tweets/index.html.erb within layouts/application (23.7ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `teste' for #<Tweet id: nil, tweet: nil, created_at: nil, updated_at: nil>:
+  app/views/tweets/_form.html.erb:4:in `block in _app_views_tweets__form_html_erb__2812155471677957999_70323893239220'
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_70323893239220'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323893141040'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323892774540'
+
+Started POST "/__better_errors/e29f345f4bd078ae/variables" for 127.0.0.1 at 2019-09-25 10:45:24 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:45:34 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.5ms)
+  Rendered tweets/_form.html.erb (10.3ms)
+  Rendered tweets/_feed.html.erb (11.6ms)
+  Rendered tweets/index.html.erb within layouts/application (13.6ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `tweets' for #<Tweet id: nil, tweet: nil, created_at: nil, updated_at: nil>
+Did you mean?  tweet
+               tweet?
+               tweet=:
+  app/views/tweets/_form.html.erb:4:in `block in _app_views_tweets__form_html_erb__2812155471677957999_70323850308220'
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_70323850308220'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323850293380'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323848832560'
+
+Started POST "/__better_errors/02dffdd3384ae1bd/variables" for 127.0.0.1 at 2019-09-25 10:45:34 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:45:37 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (4.5ms)
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (6.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:46:26 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.9ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:46:27 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.7ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:47:07 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.7ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:47:08 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.0ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:47:40 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (0.1ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (1.7ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:47:56 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.4ms)
+  Rendered tweets/_form.html.erb (3.1ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:48:29 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (5.0ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:49:24 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (5.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:49:57 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.4ms)
+  Rendered tweets/_feed.html.erb (3.2ms)
+  Rendered tweets/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+
+SimpleForm::WrapperNotFound - Couldn't find wrapper with name true:
+  app/views/tweets/_form.html.erb:5:in `block in _app_views_tweets__form_html_erb__2812155471677957999_70323953669860'
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_70323953669860'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323899211000'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323896997160'
+
+Started POST "/__better_errors/b8e4fc93d1fda1d7/variables" for 127.0.0.1 at 2019-09-25 10:49:57 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:50:02 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.0ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:52:13 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.5ms)
+  Rendered tweets/_feed.html.erb (4.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+
+TypeError - {:class=>"is-info"} is not a symbol nor a string:
+  app/views/tweets/_form.html.erb:8:in `block in _app_views_tweets__form_html_erb__2812155471677957999_47022290061400'
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_47022290061400'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_47022289852900'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_47022289539020'
+
+Started POST "/__better_errors/d9ef9abdf6ce517f/variables" for 127.0.0.1 at 2019-09-25 10:52:13 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:52:22 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  Rendered tweets/_form.html.erb (293.9ms)
+  Rendered tweets/_feed.html.erb (294.8ms)
+  Rendered tweets/index.html.erb within layouts/application (296.1ms)
+Completed 500 Internal Server Error in 298ms (ActiveRecord: 0.5ms)
+
+
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+
+NameError - undefined local variable or method `is' for #<#<Class:0x00007feb1dfd9020>:0x00007feb1dab35a0>:
+  app/views/tweets/_form.html.erb:8:in `block in _app_views_tweets__form_html_erb__2812155471677957999_70323896000200'
+  app/views/tweets/_form.html.erb:1:in `_app_views_tweets__form_html_erb__2812155471677957999_70323896000200'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323895966500'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323895902060'
+
+Started POST "/__better_errors/d34d1143e4da1e19/variables" for 127.0.0.1 at 2019-09-25 10:52:22 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /usr/share/rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Tweet Load (0.0ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:52:32 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (0.5ms)
+  Rendered tweets/_feed.html.erb (1.3ms)
+  Rendered tweets/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tLABEL, expecting '='
+...uffer.append=( f.button, class: "is-info" );@output_buffer.s...
+...                         ^~~~~~:
+  app/views/tweets/_form.html.erb:8:in `'
+  app/views/tweets/_feed.html.erb:10:in `_app_views_tweets__feed_html_erb___7939223455300437_70323852809140'
+  app/views/tweets/index.html.erb:5:in `_app_views_tweets_index_html_erb___417002132580755507_70323852716540'
+
+Started POST "/__better_errors/19b83b5543c52162/variables" for 127.0.0.1 at 2019-09-25 10:52:32 -0300
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" ORDER BY created_at DESC LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/u300343/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:52:47 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.3ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (5.0ms)
+  Rendered tweets/_who-to-follow.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:53:12 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.6ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:55:20 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.0ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.8ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:56:56 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:57:00 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.3ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:57:11 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.3ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.1ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:57:28 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.9ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/1" for 127.0.0.1 at 2019-09-25 10:57:36 -0300
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tweets/1/edit" for 127.0.0.1 at 2019-09-25 10:57:37 -0300
+Processing by TweetsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  Rendering tweets/edit.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (2.7ms)
+  Rendered tweets/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tweets/1" for 127.0.0.1 at 2019-09-25 10:57:43 -0300
+Processing by TweetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"80DcRwEfGwoJ/pHChi///akWSA0Pui9AsEBWUhKLH8RMwuLgI8Pt7roOxks4xd4UiGr4bSwH/4o/P1gxUPE/dg==", "tweet"=>{"tweet"=>"Lukinhas mama rola"}, "commit"=>"Update Tweet", "id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:45
+  [1m[36mTweet Update (0.3ms)[0m  [1m[33mUPDATE "tweets" SET "tweet" = ?, "updated_at" = ? WHERE "tweets"."id" = ?[0m  [["tweet", "Lukinhas mama rola"], ["updated_at", "2019-09-25 13:57:43.150470"], ["id", 1]]
+  ↳ app/controllers/tweets_controller.rb:45
+  [1m[35m (156.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:45
+Redirected to http://localhost:3000/tweets/1
+Completed 302 Found in 161ms (ActiveRecord: 156.6ms)
+
+
+Started GET "/tweets/1" for 127.0.0.1 at 2019-09-25 10:57:43 -0300
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:57:44 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.8ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 10:59:27 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_profile.html.erb (0.2ms)
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:00:23 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_profile.html.erb (0.2ms)
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.8ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:01:19 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.4ms)
+  Rendered tweets/_form.html.erb (4.6ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (6.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:01:21 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.0ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:01:21 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.3ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.2ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:01:33 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.1ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:01:34 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.2ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:01:34 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.5ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:01:47 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.0ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.7ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:01:56 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.9ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:02:04 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.1ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:02:30 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (5.1ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:02:51 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (2.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.8ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:02:52 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:03:34 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (2.8ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.7ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:03:35 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.5ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:03:54 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.5ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:04:02 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.6ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:04:03 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.5ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:04:40 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (5.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:05:03 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.0ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:05:18 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:05:19 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:05:19 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (2.8ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:05:23 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.0ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:05:23 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.5ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.2ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:05:24 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.7ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.7ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:05:59 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.8ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:06:11 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.1ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:06:42 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (2.9ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.7ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:06:52 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.2ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:07:37 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.9ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:07:43 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.2ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:07:52 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (2.5ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.2ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:07:58 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.0ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.7ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:08:02 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.4ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.3ms)
+  Rendered tweets/_who-to-follow.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:09:48 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (3.1ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:09:49 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.6ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.4ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:09:54 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.3ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.0ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:10:06 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.3ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (3.9ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:10:17 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.4ms)
+  Rendered tweets/_form.html.erb (3.8ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (6.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:11:09 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (3.1ms)
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.8ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:13:00 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.3ms)
+  Rendered tweets/_form.html.erb (3.6ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (5.5ms)
+  Rendered tweets/_who-to-follow.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/1/edit" for 127.0.0.1 at 2019-09-25 11:13:36 -0300
+Processing by TweetsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  Rendering tweets/edit.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (3.0ms)
+  Rendered tweets/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tweets/1" for 127.0.0.1 at 2019-09-25 11:13:43 -0300
+Processing by TweetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VS2OUFTk/AnimIr+dJhDvhlvRWxdk3R+NvLDxZIHXeTqr7D3djgK7VFo3XfKcmJXOBP1DH4upLS5jc2m0H19Vg==", "tweet"=>{"tweet"=>"Salve Bruno"}, "commit"=>"Update Tweet", "id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:45
+  [1m[36mTweet Update (0.2ms)[0m  [1m[33mUPDATE "tweets" SET "tweet" = ?, "updated_at" = ? WHERE "tweets"."id" = ?[0m  [["tweet", "Salve Bruno"], ["updated_at", "2019-09-25 14:13:43.499208"], ["id", 1]]
+  ↳ app/controllers/tweets_controller.rb:45
+  [1m[35m (106.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:45
+Redirected to http://localhost:3000/tweets/1
+Completed 302 Found in 111ms (ActiveRecord: 106.4ms)
+
+
+Started GET "/tweets/1" for 127.0.0.1 at 2019-09-25 11:13:43 -0300
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2019-09-25 11:13:44 -0300
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (0.2ms)
+  Rendered tweets/_form.html.erb (2.6ms)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweets/_feed.html.erb:16
+  Rendered tweets/_feed.html.erb (4.6ms)
+  Rendered tweets/_who-to-follow.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.2ms)
+
+
