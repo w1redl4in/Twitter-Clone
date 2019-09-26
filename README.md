@@ -4,8 +4,9 @@
 ![](https://github.com/w1redl4in/Twitter-Clone/blob/master/screenshots/twitter2.png)
 
 ## Stack utilizado:
+• Arquitetura MVC (Model, View e Controller)
 • Ruby  
-• Rails (Framework Ruby)  
-• SASS  
-• Bulma (Framework CSS)  
-• ERB (Ruby Template in HTML)  
+• Rails (Ruby Framework)  
+• Bulma (CSS Framework)  
+• JavaScript
+
