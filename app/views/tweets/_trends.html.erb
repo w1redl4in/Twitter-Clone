@@ -10,7 +10,7 @@
 						</p>
 					</figure>
 					<div class="media-content">
-						<strong><%= current_user.name %></strong><br>
+						<strong><%= link_to current_user.name, edit_user_registration_path %></strong><br>
 						<small>@<%= current_user.username %></small>
 					</div>
 				</div>
