@@ -40,6 +40,7 @@
           <div class="field is-grouped ">
             <p style="position: relative; margin-top: 6.5px;" class="control"><%= link_to 'New Tweet', new_tweet_path, class: "button is-info is-inverted" %></p>
             <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control button is-info is-inverted"> <i class="fa fa-sign-in">&nbsp;&nbsp;</i>Sign Up</p>
+            <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control button is-info is-inverted"><%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class: "button control is-info is-inverted" %></p>
           </div>
         </div>
       </div>
