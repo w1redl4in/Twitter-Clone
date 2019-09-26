@@ -1,16 +1,19 @@
-<div class="column is-half">
-	<article class="media box">
-		<figure class="media-left">
-			<p class="image is-64x64">
-				<img src="https://bulma.io/images/placeholders/64x64.png">
-			</p>
-		</figure>
-		<div class="media-content">
-			<div class="content">
-				<%= render 'tweets/form' %>
+	<div class="column is-half">
+<% if user_signed_in? %>
+		<article class="media box">
+			<figure class="media-left">
+				<p class="image is-64x64">
+					<img src="https://bulma.io/images/placeholders/64x64.png">
+				</p>
+			</figure>
+			<div class="media-content">
+				<div class="content">
+					<%= render 'tweets/form' %>
+				</div>
 			</div>
-		</div>
-	</article>
+		</article>
+		<% end %>
+
 
 
 <% @tweets.each do |tweet| %>
@@ -24,11 +27,12 @@
 
 			<div class="media-content">
 				<div class="content">
-					<strong><%= current_user.name %></strong> 
-					<small>@<%= current_user.username %></small>
+					<strong><%= tweet.user.name %></strong> 
+					<small>@<%= tweet.user.username %></small>
 					<p><%= tweet.tweet %></p>
 				</div>
-
+				
+				<% if user_signed_in? %>
 				<div class="level">
 					<div class="level-left is-mobile">
 						<%= link_to tweet, class: "level-item" do %>
@@ -44,6 +48,7 @@
 						<% end %>
 					</div>
 				</div>
+				<% end %>
 			</div>
 		</article>
 	</div>

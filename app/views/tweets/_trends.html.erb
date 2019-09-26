@@ -1,19 +1,36 @@
 <div class="column is-one-quarter">
-	
-	<div class="media box">
-		<figure class="media-left">
-			<p class="image is-64x64">
-				<img src="https://bulma.io/images/placeholders/64x64.png">
-			</p>
-		</figure>
-		<div class="media-content">
-			<div class="content">
-				<strong><%= current_user.name %></strong><br/>
-				<small>@<%= current_user.username %></small>
+	<% if user_signed_in? %>
+		<div class="panel">
+			<p class="panel-heading" style="text-align: center;">Perfil</p>
+			<div class="panel-block">
+				<div class="media">
+					<figure class="media-left">
+						<p class="image is-64x64">
+							<img src="https://bulma.io/images/placeholders/64x64.png">
+						</p>
+					</figure>
+					<div class="media-content">
+						<strong><%= current_user.name %></strong><br>
+						<small>@<%= current_user.username %></small>
+					</div>
+				</div>
+			</div>
+			<div class="panel-block">
+				<div class="media-content">
+					<p class="heading">Tweets</p>
+					<p><%= current_user.tweets.count %></p>
+				</div>
+				<div class="media-content">
+					<p class="heading">LIKES</p>
+					<p>450K</p>
+				</div>
+				<div class="media-content">
+					<p class="heading">FOLLOWS</p>
+					<p>40K</p>
+				</div>
 			</div>
 		</div>
-	</div>
-
+	<% end %>
 	<div class="panel">
 		<p class="panel-heading">Trends</p>
 		<div class="panel-block">
