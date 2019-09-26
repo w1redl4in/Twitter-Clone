@@ -4,3 +4,6 @@
 
 /vendor/
 /db/
+
+log/
+/log/
