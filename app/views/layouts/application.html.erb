@@ -13,7 +13,10 @@
   <body>
     <% if flash[:notice] %>
       <div class="notification is-primary global-notification">
-        <p class="notice"><%= notice %></p>
+        <p class="notice">
+          <button style="position: relative; float: right;" class="delete"></button>
+          <%= notice %>
+        </p>
       </div>
     <% end %>
 
