@@ -1,6 +1,8 @@
+<% @random = User.find(User.pluck(:id).sample)%>
+
 <div class="column">
 	<nav class="panel">
-		<p class="panel-heading">Who to Follow</p>
+		<p class="panel-heading" style="text-align: center; font-weight: bold;">Who to Follow</p>
 		<div class="panel-block">
 			<article class="media">
 				<div class="media-left">
@@ -54,5 +56,25 @@
 				</div>
 			</article>
 		</div>
+	</nav>
+	<nav class="panel">
+		<p style="text-align: center; font-weight: bold;" class="panel-heading">Popularity</p>
+	<% @tweets.each do |randomuser| %>
+		<div class="panel-block">
+			<div class="media">
+				<figure class="media-left">
+					<p class="image is-32x32">
+						<%= gravatar_image_tag(randomuser.user.email, alt: randomuser.user.email)%>
+					</p>
+				</figure>
+				<div class="media-content">
+					<strong><%= randomuser.user.name %></strong><br/>
+					<small>@<%= randomuser.user.name %></small>
+				</div>
+			</div>
+		</div>
+	<% end %>
+
+		
 	</nav>
 </div>
