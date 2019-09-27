@@ -1,5 +1,5 @@
-	<div class="column is-half">
-<% if user_signed_in? %>
+<div class="column is-half">
+	<% if user_signed_in? %>
 		<article class="media box">
 			<figure class="media-left">
 				<p class="image is-64x64">
@@ -12,45 +12,47 @@
 				</div>
 			</div>
 		</article>
-		<% end %>
+	<% end %>
 
 
 
-<% @tweets.each do |tweet| %>
-	<div class="box">
-		<article class="media">
-			<div class="media-left">
-				<figure class="image is-64x64">
-					<%= gravatar_image_tag(tweet.user.email, size: 64, alt: tweet.user.email)%>
-				</figure>
-			</div>
-
-			<div class="media-content">
-				<div class="content">
-					<strong><%= tweet.user.name %></strong> 
-					<small>@<%= tweet.user.username %></small>
-					<p><%= tweet.tweet %></p>
+	<% @tweets.each do |tweet| %>
+		<div class="box">
+			<article class="media">
+				<div class="media-left">
+					<figure class="image is-64x64">
+						<%= gravatar_image_tag(tweet.user.email, size: 64, alt: tweet.user.email)%>
+					</figure>
 				</div>
-				
-				<% if user_signed_in? %>
-				<div class="level">
-					<div class="level-left is-mobile">
-						<%= link_to tweet, class: "level-item" do %>
-							<span class="fa fa-link"></span>
-						<% end %>
 
-						<%= link_to edit_tweet_path(tweet), class: "level-item" do %>
-							<span class="fa fa-edit"></span>
-						<% end %>
-
-						<%= link_to tweet, method: :delete, data: { confirm: "Você tem certeza que quer deletar este tweet?"} do %>
-							<span class="fa fa-trash"></span>
-						<% end %>
+				<div class="media-content">
+					<div class="content">
+						<strong><%= tweet.user.name %></strong> 
+						<small>@<%= tweet.user.username %></small>
+						<p><%= tweet.tweet %></p>
 					</div>
+					
+					<% if user_signed_in? %>
+						<% if current_user.name == tweet.user.name %>
+					<div class="level">
+						<div class="level-left is-mobile">
+							<%= link_to tweet, class: "level-item" do %>
+								<span class="fa fa-link"></span>
+							<% end %>
+
+							<%= link_to edit_tweet_path(tweet), class: "level-item" do %>
+								<span class="fa fa-edit"></span>
+							<% end %>
+
+							<%= link_to tweet, method: :delete, data: { confirm: "Você tem certeza que quer deletar este tweet?"} do %>
+								<span class="fa fa-trash"></span>
+					<% end %>
+						</div>
+					</div>
+						<% end %>
+					<% end %>
 				</div>
-				<% end %>
-			</div>
-		</article>
-	</div>
-<% end %>
+			</article>
+		</div>
+	<% end %>
 </div>
