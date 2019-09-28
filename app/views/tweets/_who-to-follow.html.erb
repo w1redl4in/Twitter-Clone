@@ -1,5 +1,3 @@
-<% @random = User.find(User.pluck(:id).sample)%>
-
 <div class="column">
 	<nav class="panel">
 		<p class="panel-heading" style="text-align: center; font-weight: bold;">Who to Follow</p>
@@ -59,22 +57,42 @@
 	</nav>
 	<nav class="panel">
 		<p style="text-align: center; font-weight: bold;" class="panel-heading">Popularity</p>
-	<% @tweets.each do |randomuser| %>
-		<div class="panel-block">
-			<div class="media">
-				<figure class="media-left">
-					<p class="image is-32x32">
-						<%= gravatar_image_tag(randomuser.user.email, alt: randomuser.user.email)%>
-					</p>
-				</figure>
-				<div class="media-content">
-					<strong><%= randomuser.user.name %></strong><br/>
-					<small>@<%= randomuser.user.name %></small>
+		<% @tweets.each do |randomuser| %>
+			<div class="panel-block">
+				<div class="media">
+					<figure class="media-left">
+						<p class="image is-32x32">
+							<%= gravatar_image_tag(randomuser.user.email, alt: randomuser.user.email)%>
+						</p>
+					</figure>
+					<div class="media-content">
+						<strong><%= randomuser.user.name %></strong><br/>
+						<small>@<%= randomuser.user.name %></small>
+					</div>
+				</div>
+			</div>
+		<% end %>
+	</nav>
+		<div class="panel">
+			<div class="panel-block">
+				<div class="media">
+					<figure class="media-left">
+						<p class="image is-128x128">
+							<%= image_tag('https://media1.tenor.com/images/0af2a5096d6b358e8b63a0d4b7b18617/tenor.gif?itemid=12263255')%>
+						</p>
+					</figure>
+					<div class="media-content">
+						<br>
+						<div class="panel-block">
+							<div class="content">
+								<strong>Felipe Austríaco</strong><br>
+								<strong>github/w1redl4in</strong>
+								<strong>gitlab/w1redl4in</strong>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	<% end %>
-
-		
 	</nav>
 </div>
