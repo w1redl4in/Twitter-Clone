@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+          $notification = $delete.parentNode;
+          $delete.addEventListener('click', () => {
+            $notification.parentNode.removeChild($notification);
+          });
+        });
+      });
+    </script>
     <title>Twitter</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,17 +21,20 @@
 
   <body>
     <% if flash[:notice] %>
-      <div class="notification is-primary global-notification">
-        <p class="notice">
-          <button style="position: relative; float: right;" class="delete"></button>
+      <div class="notification is-success global-notification">
+        <p class="notice" style="text-align: center;">
           <%= notice %>
         </p>
+          <button class="delete"></button>
       </div>
     <% end %>
 
     <% if flash[:alert] %>
-      <div class="notification is-primary global-notification">
-        <p class="alert" id="a"><%= alert %></p>
+      <div class="notification is-danger global-notification">
+        <p class="alert" style="text-align: center;">
+          <%= alert %>
+        </p>
+        <button class="delete"></button>
       </div>
     <% end %>
   
@@ -39,11 +52,11 @@
           <div class="field is-grouped">            
             <% if !user_signed_in? %>
             <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control"><%= link_to 'Sign Up', new_user_registration_path, class: "button is-info is-inverted" %></p>
-
-            <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control button is-info is-inverted"><%= link_to 'Sign In', new_user_session_path, class: "control button is-info is-inverted"%></p>
+            
+            <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control"><%= link_to 'Sign In', new_user_session_path, class: "control button is-info is-inverted" %></p>
 
             <% else %>
-            <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control button is-info is-inverted"><%= link_to 'Log Out', destroy_user_session_path, method: :delete, class: "button control is-info is-inverted" %></p>
+            <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control"><%= link_to 'Log Out', destroy_user_session_path, method: :delete, class: "button control is-info is-inverted" %></p>
             <% end %>
           </div>
         </div>
