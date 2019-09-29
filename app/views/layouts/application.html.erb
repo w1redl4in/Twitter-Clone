@@ -31,20 +31,16 @@
           <h1 class="title is-four">Twitter&nbsp;<span class="fa fa-twitter"></span></h1>
         <% end %>
         <div class="navbar-burger burger" data-target="navbarExample">
-          <span></span>
-          <span></span>
-          <span></span>
         </div>
       </div>  
 
       <div id="navbarExample" class="navbar-menu">
         <div class="navbar-end">
-          <div class="field is-grouped ">
-            
+          <div class="field is-grouped">            
             <% if !user_signed_in? %>
             <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control"><%= link_to 'Sign Up', new_user_registration_path, class: "button is-info is-inverted" %></p>
 
-           <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control button is-info is-inverted"><%= link_to 'Sign In', new_user_session_path, class: "control button is-info is-inverted"%></p>
+            <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control button is-info is-inverted"><%= link_to 'Sign In', new_user_session_path, class: "control button is-info is-inverted"%></p>
 
             <% else %>
             <p style="position: relative; margin-top: 6.5px; margin-right: 4px;" class="control button is-info is-inverted"><%= link_to 'Log Out', destroy_user_session_path, method: :delete, class: "button control is-info is-inverted" %></p>
@@ -53,7 +49,6 @@
         </div>
       </div>
     </nav> 
-
     <%= yield %>
   </body>
 </html>

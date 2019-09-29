@@ -33,7 +33,7 @@
 					</div>
 					
 					<% if user_signed_in? %>
-						<% if current_user.name == tweet.user.name %>
+						<% if current_user.id == tweet.user.id %>
 					<div class="level">
 						<div class="level-left is-mobile">
 							<%= link_to tweet, class: "level-item" do %>

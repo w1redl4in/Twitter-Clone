@@ -1,6 +1,30 @@
-<h1>Editing Tweet</h1>
-
-<%= render 'form', tweet: @tweet %>
-
-<%= link_to 'Show', @tweet %> |
-<%= link_to 'Back', tweets_path %>
+<section>
+	<div class="container">
+		<div class="columns is-centered">
+			<div class="column is-4">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<h2 class="title is-2">Editing your Tweet</h2>
+				<div class="panel">
+					<div class="panel-block">
+						<div class="media">
+							<figure class="media-left">
+								<p class="image is-128x128">
+									<%= gravatar_image_tag(@tweet.user.email)%>
+								</p>
+							</figure>
+							<div class="media-content">
+								<%= render 'form', tweet: @tweet %>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
