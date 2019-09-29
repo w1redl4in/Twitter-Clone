@@ -39,7 +39,7 @@ class TweetsController < ApplicationController
       end
     end
   end
-
+  
   # PATCH/PUT /tweets/1
   # PATCH/PUT /tweets/1.json
   def update
