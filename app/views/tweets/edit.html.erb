@@ -20,6 +20,16 @@
 							</figure>
 							<div class="media-content">
 								<%= render 'form', tweet: @tweet %>
+								<div class="level">
+									<div class="level-left is-mobile">
+										<%= link_to root_path, class: "level-item" do %>
+											<span class="fa fa-twitter"></span>
+										<% end %>
+							 			<%= link_to @tweet, method: :delete, data: { confirm: "Você tem certeza que quer deletar este tweet?"} do %>
+											<span class="fa fa-trash" style="color: #E0245E;"></span>
+										<% end %>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

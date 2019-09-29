@@ -1,62 +1,6 @@
 <div class="column">
 	<nav class="panel">
-		<p class="panel-heading" style="text-align: center; font-weight: bold;">Who to Follow</p>
-		<div class="panel-block">
-			<article class="media">
-				<div class="media-left">
-					<figure class="image is-32x32">
-						<%= gravatar_image_tag('felipe.araujo@hubfintech.com.br', size: 64, alt: 'felipe.araujo@hubfintech.com.br')%>
-					</figure>
-				</div>
-				<div class="media-content">
-					<div class="content">
-						<p>
-							<strong>Felipe Austríaco</strong><br>
-							<small>@lainOnrails</small>
-						</p>
-					</div>
-				</div>
-			</article>
-		</div>
-
-		<div class="panel-block">
-			<article class="media">
-				<div class="media-left">
-					<figure class="image is-32x32">
-						<%= gravatar_image_tag('felipe.araujo@hubfintech.com.br', size: 64, alt: 'felipe.araujo@hubfintech.com.br')%>
-					</figure>
-				</div>
-				<div class="media-content">
-					<div class="content">
-						<p>
-							<strong>Felipe Austríaco</strong><br>
-							<small>@lainOnrails</small>
-						</p>
-					</div>
-				</div>
-			</article>
-		</div>
-	
-		<div class="panel-block">
-			<article class="media">
-				<div class="media-left">
-					<figure class="image is-32x32">
-						<%= gravatar_image_tag('felipe.araujo@hubfintech.com.br', size: 64, alt: 'felipe.araujo@hubfintech.com.br')%>
-					</figure>
-				</div>
-				<div class="media-content">
-					<div class="content">
-						<p>
-							<strong>Felipe Austríaco</strong><br>
-							<small>@lainOnrails</small>
-						</p>
-					</div>
-				</div>
-			</article>
-		</div>
-	</nav>
-	<nav class="panel">
-		<p style="text-align: center; font-weight: bold;" class="panel-heading">Popularity</p>
+		<p class="panel-heading" style="text-align: center; font-weight: bold;">Who to Follow <i class="fa fa-user-plus" style="color: #42C7F9;"></i>	 </p>
 		<% @tweets.each do |randomuser| %>
 			<div class="panel-block">
 				<div class="media">
@@ -66,7 +10,25 @@
 						</p>
 					</figure>
 					<div class="media-content">
-						<strong><%= randomuser.user.name %></strong><br/>
+						<strong><%= randomuser.user.name %></strong>
+						<small>@<%= randomuser.user.name %></small>
+					</div>
+				</div>
+			</div>
+		<% end %>
+	</nav>
+	<nav class="panel">
+		<p style="text-align: center; font-weight: bold;" class="panel-heading">Popularity <i class="fa fa-users" style="color: #42C7F9;"></i></p>
+		<% @tweets.each do |randomuser| %>
+			<div class="panel-block">
+				<div class="media">
+					<figure class="media-left">
+						<p class="image is-32x32">
+							<%= gravatar_image_tag(randomuser.user.email, alt: randomuser.user.email)%>
+						</p>
+					</figure>
+					<div class="media-content">
+						<strong><%= randomuser.user.name %></strong>
 						<small>@<%= randomuser.user.name %></small>
 					</div>
 				</div>

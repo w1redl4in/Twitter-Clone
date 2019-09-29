@@ -35,15 +35,15 @@
 					<div class="level">
 						<div class="level-left is-mobile">
 							<%= link_to tweet, class: "level-item" do %>
-								<span class="fa fa-link"></span>
+								<span class="fa fa-eye" style="color: #209CEE;"></span>
 							<% end %>
 
 							<%= link_to edit_tweet_path(tweet), class: "level-item" do %>
-								<span class="fa fa-edit"></span>
+								<span class="fa fa-edit" style="color: black;"></span>
 							<% end %>
 
 							<%= link_to tweet, method: :delete, data: { confirm: "Você tem certeza que deseja deletar este tweet?"} do %>
-								<span class="fa fa-trash"></span>
+								<span class="fa fa-times" style="color: #E0245E;"></span>
 							<% end %>
 						</div>
 					</div>
