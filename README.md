@@ -18,6 +18,6 @@
 
 
 
-All copyrights to https://twitter.com
-Bulma docs: https://bulma.io/documentation/
-Rails: https://rubyonrails.org
+All copyrights to https://twitter.com  
+Bulma docs: https://bulma.io/documentation/  
+Rails: https://rubyonrails.org  
