@@ -6,7 +6,7 @@
 				<div class="media">
 					<figure class="media-left">
 						<p class="image is-64x64">
-							<%= gravatar_image_tag(current_user.email, size: 64, alt: current_user.email)%>
+							<a href="/profile"><%= gravatar_image_tag(current_user.email)%></a>
 						</p>
 					</figure>
 					<div class="media-content">
@@ -102,6 +102,5 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 </div>
