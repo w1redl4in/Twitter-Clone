@@ -1,0 +1,32 @@
+<section>
+	<div class="container">
+		<div class="columns is-centered">
+			<div class="column is-4">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<h2 class="title is-2">Profile</h2>
+				<div class="panel">
+					<div class="panel-block">
+						<figure class="media-left">
+							<p class="image is-128x128">
+								<%= gravatar_image_tag(current_user.email)%>
+							</p>
+						</figure>
+						<figure class="media">
+							<div class="media">
+								<div class="media-content">
+									<strong>Nome: <%= current_user.name %></strong><br>
+									<strong>Usuário: <%= current_user.username %></strong><br>
+									<strong>E-mail: <%= current_user.email %></strong>
+								</div>
+							</div>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -30,3 +30,24 @@
  .notification:not(:last-child) {
  	margin-bottom: 0;
  }
+
+ .github {
+   font-size: 23pt;
+   color: black;
+ }
+
+.gitlab {
+  font-size: 23pt;
+  color: orangered;
+}
+
+.linkedin{
+  color: dodgerblue;
+  font-size: 23pt;
+}
+
+.position{
+  position: relative;
+  margin-left: 30px;
+}
+
