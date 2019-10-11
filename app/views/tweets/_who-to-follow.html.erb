@@ -1,17 +1,17 @@
 <div class="column">
 	<nav class="panel">
 		<p class="panel-heading" style="text-align: center; font-weight: bold;">Who to Follow <i class="fa fa-user-plus" style="color: #42C7F9;"></i>	 </p>
-		<% @tweets.each do |randomuser| %>
+		<% @users.each do |randomuser| %>
 			<div class="panel-block">
 				<div class="media">
 					<figure class="media-left">
 						<p class="image is-32x32">
-							<%= gravatar_image_tag(randomuser.user.email, alt: randomuser.user.email)%>
+							<%= gravatar_image_tag(randomuser.email, alt: randomuser.email)%>
 						</p>
 					</figure>
 					<div class="media-content">
-						<strong><%= randomuser.user.name %></strong>
-						<small>@<%= randomuser.user.name %></small>
+						<strong><%= randomuser.name %></strong>
+						<small>@<%= randomuser.name %></small>
 					</div>
 				</div>
 			</div>
