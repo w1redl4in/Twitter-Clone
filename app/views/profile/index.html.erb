@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <section>
 	<div class="container">
 		<div class="columns is-centered">
@@ -10,11 +11,30 @@
 				<h2 class="title is-2">Profile</h2>
 				<div class="panel">
 					<div class="panel-block">
+=======
+<div class="container">
+	<div class="columns is-centered">
+		<div class="column is-5">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h2 class="title is-2">Perfil</h2>
+			<div class="panel">
+				<div class="panel-block">
+					<div class="media">
+>>>>>>> 6fbdda85d2a0d6bcb3707a6009b1ecd31824804d
 						<figure class="media-left">
 							<p class="image is-128x128">
 								<%= gravatar_image_tag(current_user.email)%>
 							</p>
 						</figure>
+<<<<<<< HEAD
 						<figure class="media">
 							<div class="media">
 								<div class="media-content">
@@ -24,9 +44,26 @@
 								</div>
 							</div>
 						</figure>
+=======
+						<div class="media-content">
+							<div class="content">
+								<br>
+								<strong  class="title is-5">Nome: </strong><%= current_user.name %><br>
+								<strong class="title is-5">Usuario: </strong><%= current_user.username %><br>
+								<strong class="title is-5">E-mail:</strong><%= current_user.email %><br>
+								<strong class="title is-5">Tweet: </strong><%= current_user.tweets.count%><br><br>
+								
+							</div>
+
+						</div>
+>>>>>>> 6fbdda85d2a0d6bcb3707a6009b1ecd31824804d
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 </section>
+=======
+</div>
+>>>>>>> 6fbdda85d2a0d6bcb3707a6009b1ecd31824804d
